@@ -1,14 +1,11 @@
 ---
-
 ### **Lesson Plan for Military Order of the Purple Heart Website**
 
 #### **Overview and Goals**
 
 * **Goal** : Understand the structure and functionality of the website, including Firebase setup, React component organization, and Tailwind CSS for styling.
 * **Outcome** : The developer will be able to navigate the codebase, modify components, add new features, and work with Firebase and GitHub effectively.
-
 ---
-
 ### **1. Project Setup and Initialization**
 
 #### **Lesson 1: Cloning the Repository and Setting Up Environment**
@@ -138,28 +135,6 @@
 
 ---
 
-### **6. Testing and Deployment**
-
-#### **Lesson 7: Testing and Firebase Deployment**
-
-* **Objective** : Test the application locally, set up Firebase Hosting, and deploy the app.
-* **Steps** :
-  1. **Test Locally** :
-     * Review functionality by running the app and testing features (sign-up, login, role-based access).
-  2. **Firebase Hosting Setup** :
-     * **Initialize Firebase Hosting** (run in project root):
-       ```bash
-       firebase init hosting
-       ```
-     * Follow prompts to set up Firebase Hosting.
-  3. **Deploy to Firebase** :
-
-  ```bash
-  npm run build
-  firebase deploy
-  ```
-
----
 
 ### **Summary and Final Review**
 
@@ -170,5 +145,3 @@
   * Encourage documenting changes and collaborating on GitHub for team cohesion.
 
 ---
-
-With this lesson plan, the developer should gain a thorough understanding of the project structure, Firebase setup, Tailwind CSS styling, and the GitHub workflow for effective collaboration. Let me know if you need more detail on any specific section!

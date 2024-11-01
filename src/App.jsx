@@ -12,7 +12,7 @@ import MemberArea from "./pages/MemberArea";
 import AdminArea from "./pages/AdminArea";
 import AddMember from "./pages/AddMember";
 import SignUp from "./pages/SignUp";
-import Login from "./pages/Login"; // Import the Login component
+import Login from "./pages/Login";
 import ProtectedRoute from "./components/ProtectedRoute";
 
 const App = () => {
@@ -28,7 +28,7 @@ const App = () => {
         <Route path="/donate" element={<Donate />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/signup" element={<SignUp />} />
-        <Route path="/login" element={<Login />} /> {/* Add the login route */}
+        <Route path="/login" element={<Login />} />
         <Route path="/member-area" element={<MemberArea />} />
         <Route
           path="/admin-area"
